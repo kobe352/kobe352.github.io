@@ -1,0 +1,195 @@
+body {
+    background: #7597de;
+}
+h4 {
+    font-size: calc(8px + 1vmin);
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+p {
+    text-align: center;
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+}
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 95%;
+    padding: 0px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header .heading {
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+header ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul li {
+    list-style: none;
+    margin-left: 20px;
+    margin: 20px 20px;
+}
+
+header ul li a {
+    text-decoration: none;
+    padding: 6px 15px;
+    color: #fff;
+    border-radius: 20px;
+    top: -30px;
+}
+
+header ul li a:hover,
+header ul li a.active {
+    background:#fff;
+    color:#2b1055;
+}
+
+.textmain {
+    margin-top: 15%;
+    font-size: 30px;
+    position: absolute;
+}
+
+.res {
+    position: relative;
+    margin-top: 10%;
+    text-align: center;
+}
+
+.foot {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 60px;   /* Height of the footer */
+ }
+.contact {
+    padding: 130px 100px;
+    text-decoration: underline;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.contact .content h1 {
+    max-width: 800px;
+    text-align: center;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.container .contactinfo {
+    display: flex;
+    flex-direction: column;
+}
+
+.container .contactinfo .box {
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+}
+
+.container .contactinfo .box .icon {
+    min-width: 60px;
+    height: 60px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 90%;
+    font-size: 22px;
+}
+
+.container .contactinfo .box .text {
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    color:#fff;
+    flex-direction: column;
+    font-weight: 300;
+    margin-top: 30px;
+}
+
+
+.icon {
+    margin-top: 30px;
+    margin-right: 20px;
+}
+
+.icon a{
+    text-decoration: none;
+    font-size: 30px;
+    color:black;
+    display:inline-block;
+}
+
+.sub-title {
+    font-size: 60px;
+    font-weight: 600;
+    color:#fff;
+}
+
+.textmain {
+    text-align: center;
+    position: static;
+    justify-content: center;
+}
+
+.content1 {
+    padding: 130px 100px;
+    text-decoration: underline;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#random {
+    color:greenyellow;
+    font-size: 28px;
+    margin-top: -100px;
+    font-family: "Helvetica", serif;
+}
+
+img {
+    text-align: center;
+    position: relative;
+    left: 780px;
+    height: auto;;
+    height: auto;
+}
+
+#random-text {
+    color:#fff;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+}
